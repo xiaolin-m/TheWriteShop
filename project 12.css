@@ -1,0 +1,224 @@
+/*universal*/
+body{
+	font-size:17px;
+	font-family:montserrat, sans-serif;
+	margin:0;
+	margin-top:35px;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+}
+
+h2{
+	font-size:25px;
+}
+
+hr{
+	width:80%;
+	margin:auto;
+	margin-top:5%;
+}
+
+td{
+	width:20%;
+	padding:3px;
+	text-align:center;
+	font-size:13px;
+}
+
+th{
+	text-align:left;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+	padding:0;
+}
+
+/*shipping*/
+#freeshipping{
+	background-color:#bcdaff;
+	margin:0;
+	padding:0;
+	height:40px;
+	margin-top:-35;
+}
+
+#freeshipping p{
+	padding-top:10px;
+	text-align:center;
+}
+
+#freeshipping span{
+	color:white;
+	text-decoration:underline;
+	font-size:17px;
+	cursor:pointer;
+}
+
+#freeshipping a{
+	text-decoration:none;
+	color:white;
+}
+
+#freeshipping a:hover{
+	color:#295182;
+}
+
+/*header*/
+header img{
+	width:60%;
+	padding:2%;
+}
+
+/*nav bar*/
+nav{
+	background-color:#d9d9d9;
+	width:80%;
+	margin:auto;
+	
+}
+
+
+nav ul{
+	margin:0;
+	padding:9px;
+	text-align:center;
+}
+
+nav li, .dropbtn{
+	display:inline;
+	padding:0 35px 0 35px;
+	cursor: pointer;
+	line-height:40%;
+}
+
+nav li:hover, nav li a:hover, #dropbtn:hover, #dropitems p:hover{
+	color:white;
+	font-weight:bold;
+	cursor: pointer
+}
+
+.dropbtn{   
+    border: none;
+    outline: none;
+	font-family:montserrat, sans-serif;
+	font-size:17px;
+    background-color: #d9d9d9;
+    margin: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	margin-left:-12%;
+	margin-top:5%;
+    background-color: #d9d9d9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	opacity:0.9;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/*section (sale items)*/
+.items{
+	width:100%;
+	cursor: pointer;
+	border:1px solid #d9d9d9;
+	border-style:solid dotted solid dotted;
+	
+}
+
+section img:hover{
+	opacity: 0.5; /*transparency*/
+}
+
+section span{
+	text-decoration:line-through;
+	color:#8c8c8c;
+}
+
+section p{
+	font-size:15px;
+}
+
+.prices{
+	font-size:15px;
+}
+/*footer*/
+footer{
+	margin:0;
+	height:300px;
+}
+
+footer p{
+	text-align:center;
+	font-size: 12px;
+}
+
+#footercontainer{
+	width:60%;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:0;
+}
+
+h3{
+	text-align:center;
+	font-size:16px;
+}
+
+footer table{
+	width:100%;
+	border:0px solid black;
+}
+
+footer td{
+	width:20%;
+	border:0px solid black;
+}
+
+
+.foota{
+	text-decoration:none;
+	color:black;
+	font-size:17px;
+	line-height:140%;
+}
+
+.foota:hover, #ship:hover{
+	color:#6f9ed6;
+	font-weight:bold;
+	cursor: pointer;
+}
+
+/*shipping, FAQ*/
+.shipheading, .question{
+	text-align:left;
+	color:#686868;
+	text-transform:uppercase;
+}
